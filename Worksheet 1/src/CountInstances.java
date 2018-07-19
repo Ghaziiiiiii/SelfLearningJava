@@ -23,7 +23,7 @@ public class CountInstances {
 
     public static void main(String[] args) {
 
-        System.out.println("Starting with " +
+        System.out.println("Started with " +
         CountInstances.getNumInstaces() + " instances");
 
         for (int i = 0; i < 10; i++) {
