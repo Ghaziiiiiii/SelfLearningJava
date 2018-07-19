@@ -1,3 +1,7 @@
+/*
+CountInstances uses class and instance variables to keep
+track of how many instances of that class have been created.
+ */
 public class CountInstances {
 
     // class variable set to 0
