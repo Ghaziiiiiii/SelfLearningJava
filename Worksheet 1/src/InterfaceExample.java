@@ -1,3 +1,14 @@
+/*
+Using interface we can achieve multiple inheritance & achieve 100% abstraction
+fields of inerface --> public, static, final (all set by default)
+Interfaces can also have abstract method (which have no body)
+eg:
+interface Printable {                               interface Printable {
+    int min = 5;        ---> { COMPILE } --->           public static final int min = 5;
+    void print();                                       public abstract void print();
+}                                                   }
+ */
+
 interface Printable {
     void print();
 }
