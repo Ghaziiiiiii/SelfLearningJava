@@ -12,15 +12,44 @@ abstract class Bike {
     abstract void run();    // an abstract method has no body
 }
 
-public class AbstractClass extends Bike{
-
+class Engine extends Bike {
     void run() {
-        System.out.println("running safely..");
-    }
-
-    public static void main(String[] args) {
-
-    Bike object = new AbstractClass();
-        object.run();
+        System.out.println("Engine running with no faults");
     }
 }
+
+class EngineTest extends Bike {
+    void run() {
+        System.out.println("Engine Running Safely..");
+    }
+}
+
+public class AbstractClass {
+    public static void main(String[] args) {
+
+        Bike obj1 = new Engine();
+        obj1.run();
+
+        Bike obj2 = new EngineTest();
+        obj2.run();
+    }
+}
+/*
+In case there is ONLY 1 Abstract Class Method.
+Bike the abstract class that contains only one abstract method run. It implementation is provided by the Honda class.
+
+abstract class Bike{
+  abstract void run();
+}
+class Honda4 extends Bike{
+
+void run(){
+    System.out.println("running safely..");
+}
+
+    public static void main(String args[]) {
+     Bike obj = new Honda4();
+     obj.run();
+    }
+}
+ */
