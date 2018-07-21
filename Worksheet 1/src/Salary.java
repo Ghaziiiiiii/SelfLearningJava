@@ -29,6 +29,6 @@ public class Salary extends Employee {
     @Override
     public double computePay() {
         System.out.println("Computing salary pay for " + getName());
-        return salary/52
+        return salary/52;
     }
 }
