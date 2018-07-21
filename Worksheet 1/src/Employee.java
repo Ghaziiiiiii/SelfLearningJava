@@ -1,5 +1,8 @@
 /*
 File name : Employee.java
+
+Except abstract methods the Employee class is same as normal class in Java.
+The class is abstract, but it still has 3 fields, 7 methods, and 1 constructor.
  */
 public abstract class Employee {
     // instance variable
