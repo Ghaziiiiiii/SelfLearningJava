@@ -8,7 +8,7 @@ public class AbstractDemo {
 
         Employee e = new Employee("George W.", "Houston, TX", 43);
 
-        System.out.println("Call mailChec using Salary reference --");
+        System.out.println("Call mailCheck using Salary reference --");
         s.mailCheck();
 
         System.out.println("\n Call mailCheck using Employee reference--");
