@@ -3,8 +3,11 @@ File name : Employee.java
 
 Except abstract methods the Employee class is same as normal class in Java.
 The class is abstract, but it still has 3 fields, 7 methods, and 1 constructor.
+
+** Tried to make Employee class Abstract, but realised it wasn't going to work as Abstract class can not be instantiated
+* it can have methods but with no body. So I made the class as a normal public class and it works fine
  */
-public abstract class Employee {
+public class Employee { // cannot be abstract
     // instance variable
     private String name;
     private String address;
